@@ -18,7 +18,7 @@ CREATE TABLE `juego` (
 CREATE TABLE `puntuje` (
   `id_puntaje` int PRIMARY KEY,
   `id_juego` int,
-  `id_usuarios` itn,
+  `id_usuarios` int,
   `puntos` int
 );
 
